@@ -78,10 +78,9 @@
 }
 
 .svg-div-other {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   margin-right: 16px;
-  margin-bottom: 32px;
 }
 
 .svg-pos {
@@ -96,6 +95,16 @@
   background: url(../img/dateSVG.svg);
 }
 
+.pos-name {
+  margin-top: 50px;
+  width: fit-content;
+}
+
+.input-field {
+  width: 269px;
+  height: 20px;
+}
+
 .svg-cam {
   width: inherit;
   height: inherit;
@@ -105,6 +114,8 @@
 .other-info-child {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
 .buttons-wrapper {
@@ -124,4 +135,24 @@
 
 .button-share {
   margin-top: 24px;
+}
+
+.disactivate {
+  display: none;
+}
+
+.input-field{
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+input[type="text"]
+{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 133.02%;
+  color: var(--text-color);
+  
 }
