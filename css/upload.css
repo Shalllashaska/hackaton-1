@@ -109,3 +109,8 @@
     width: 400px;
     text-align: center;
 }
+
+.link-photo-info{
+  width: inherit;
+  height: inherit;
+}
