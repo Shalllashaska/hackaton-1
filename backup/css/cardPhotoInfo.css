@@ -5,7 +5,7 @@
 .wrapper_info {
   width: 1328px;
   height: 653px;
-  margin-left: 135px;
+  margin: 114px 0px 0px 135px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -13,7 +13,7 @@
 
 .content_left {
   height: inherit;
-  width: 781px;
+  width: 947px;
   margin-right: 66px;
 }
 
@@ -24,16 +24,10 @@
   border-radius: 32px;
 }
 
-
 .img-cont {
-  width: 100%;
-  height: auto;
+  width: inherit;
+  height: inherit;
   border-radius: inherit;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
 }
 
 .div-link {
@@ -73,16 +67,14 @@
 /*right*/
 
 .content_right {
-  max-width: 319px;
-  min-width: 100px;
-  width: 100%;
+  width: 319px;
   height: 530px;
   display: flex;
   flex-direction: column;
 }
 
 .other-info {
-  margin-top: 60px;
+  margin-top: 72px;
 }
 
 .svg-div-other {
@@ -123,7 +115,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .buttons-wrapper {
@@ -163,27 +155,4 @@ input[type="text"]
   line-height: 133.02%;
   color: var(--text-color);
   
-}
-
-.left-img{
-  width: inherit;
-  height: 251.99px;
-}
-
-.left-img-img{
-  width: inherit;
-  height: inherit;
-}
-
-
-.content-info{
-  margin-top: 24px;
-}
-
-.photo-name{
-  height: 34;
-  width: inherit;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
